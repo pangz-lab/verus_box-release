@@ -11,6 +11,16 @@
 
 ## Release Notes
 
+### v0.1.17
+#### 2022/03/02
+- ✔️ Fixed pool server name
+    - Luckpool EU server name update.
+- ✔️ Hash distribution screen label update
+    - UNKNOWN HASH updated to STAKING/SOLO MINING HASH
+- ✔️ Added support for "i" address
+- ✔️ Pool name prefix removed
+- ✔️ Stratum index reorganized; set the default pool to verus pool server
+- ✔️ Minor UI improvement for Verifier tool menu
 ### v0.1.14
 #### 2022/02/28
 - ✔️ Improved wallet validation
