@@ -10,7 +10,22 @@
 [![name](https://www.gstatic.com/android/market_images/web/play_prism_hlock_2x.png)](https://play.google.com/store/apps/details?id=com.pangzlab.verus_box&hl=en_US&gl=US)
 
 ## Release Notes
-
+### v0.1.21+1-UNOFFICIAL
+#### 2022/04/06
+- ✔️ Hotfix for old android mobile for freezing screen
+### v0.1.21
+#### 2022/03/08
+- ✔️ Fixed miner crash during stop
+- ✔️ Fixed incorrect hash distribution for some pool
+- ✔️ Fixed identity search
+- ✔️ Fixed and improved coin and hash history graph for xcoord label
+- ✔️ UI Improvement
+    - Improved hashrate display unit
+    - Button padding removed, set as bottom app button
+    - Some error messages update
+    - Improved app info popup
+    - Verifier tool form verify button design update
+    - Device info mineable text status improved
 ### v0.1.17
 #### 2022/03/02
 - ✔️ Fixed pool server name
