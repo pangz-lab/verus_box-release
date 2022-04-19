@@ -11,22 +11,17 @@
 
 ## Release Notes
 ### v0.1.22
-#### 2022/04/19
+# 2022/04/19
 <details>
-  <summary>Click to expand!</summary>
-  ## Details
-    - ✔️ Integrated verus staking pool notification
-    - ✔️ Official fix for old android mobile for freezing screen during mining
-    - ✔️ Fix for network errors on old android phones due to expired SSL certificates
-    - ✔️ Added ZERGPOOL server in the official mining pool list
-    - ✔️ UI Improvement/Fix
-        - Coin history graph Y label fix for wrong value
+    <summary>Click to expand!</summary>
+
     ## Heading
     1. A numbered
     2. list
         * With some
         * Sub bullets
 </details>
+
 
 ### v0.1.21+1-UNOFFICIAL
 #### 2022/04/06
