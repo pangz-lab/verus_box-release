@@ -21,6 +21,11 @@
     - ✔️ Added ZERGPOOL server in the official mining pool list
     - ✔️ UI Improvement/Fix
         - Coin history graph Y label fix for wrong value
+    ## Heading
+    1. A numbered
+    2. list
+        * With some
+        * Sub bullets
 </details>
 
 ### v0.1.21+1-UNOFFICIAL
