@@ -10,6 +10,15 @@
 [![name](https://www.gstatic.com/android/market_images/web/play_prism_hlock_2x.png)](https://play.google.com/store/apps/details?id=com.pangzlab.verus_box&hl=en_US&gl=US)
 
 ## Release Notes
+### v0.1.22
+#### 2022/04/19
+- ✔️ Integrated verus staking pool notification
+- ✔️ Official fix for old android mobile for freezing screen during mining
+- ✔️ Fix for network errors on old android phones due to expired SSL certificates
+- ✔️ Added ZERGPOOL server in the official mining pool list
+- ✔️ UI Improvement/Fix
+    - Coin history graph Y label fix for wrong value
+
 ### v0.1.21+1-UNOFFICIAL
 #### 2022/04/06
 - ✔️ Hotfix for old android mobile for freezing screen
