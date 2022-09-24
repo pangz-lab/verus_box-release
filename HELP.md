@@ -47,7 +47,7 @@
 
 
 ### Sample Setup
-<img src="https://github.com/pangz-lab/verus_box-release/blob/master/help_assets/img/setup_monitoring.gif" alt="Monitoring Server Sample" height="650" width="400"/>
+<img src="https://github.com/pangz-lab/verus_box-release/blob/master/help_assets/img/setup_monitoring.gif" alt="Monitoring Server Sample" height="850" width="400"/>
 
 
 ## Other References
