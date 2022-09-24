@@ -1,7 +1,7 @@
 # HOW TOs :
 ## Setup Monitoring Server using VerusBox
 
-### Note
+### 📝Note
 - VerusBox monitoring service works in combination with the VerusMiner app
 - Each app should be installed in a separate devices to work
 - VerusMiner is more stable and optimized than the VerusBox's mining version
@@ -10,10 +10,11 @@
 - Monitoring works within your local network
 
 ### Requirements
+✔️ Download the following apps
 1. [VerusBox](https://play.google.com/store/apps/details?id=com.pangzlab.verus_box&gl=US)
 2. [VerusMiner](https://play.google.com/store/apps/details?id=com.pangzlab.verus_miner&gl=US)
 
-### Part 1 of 2
+### 🥩Part 1 of 2
 1. Install `VerusBox`
 2. Open VerusBox then go to `Tools` > `Monitoring`
 3. Go to setting ⚙️ and setup the `IP ADDRESS` and `PORT` then save
@@ -28,7 +29,7 @@
 7. Leave it open and wait for the incoming connections
 
 
-### Part 2 of 2
+### 🧀Part 2 of 2
 1. Install `VerusMiner`
 2. Open VerusMiner and go to `More` > `Monitoring` then add by clicking `+` (plus sign) at the bottom
 3. Add a setting by using the `IP ADDRESS` and `PORT` number you set from the `VerusBox`
@@ -42,14 +43,17 @@
     - the IP ADDRESS and PORT number should appear correctly and then save
 7. From the main screen, go to `Mining` then click `START` to run the miner.
     - the mining status will now be sent to the VerusBox's monitoring server
-8. You can now start monitoring your app remotely within your network without having to visit at each one of the miners
+8. You can now start monitoring your app remotely
+
 
 ### Sample Setup
 <img src="https://github.com/pangz-lab/verus_box-release/blob/master/help_assets/img/setup_monitoring.gif" alt="Monitoring Server Sample" height="650" width="400"/>
 
-### FAQs
 
 ## Other References
 1. [VerusBox Mining](https://youtu.be/7M8Bwz52d7A)
 2. [VerusBox Setup](https://youtu.be/Uq97hCHUYwA)
 3. [Mining Pool Server](https://youtu.be/CF5O-revXIE)
+
+## FAQs
+🚧
