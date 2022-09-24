@@ -45,7 +45,7 @@
 8. You can now start monitoring your app remotely within your network without having to visit at each one of the miners
 
 ### Sample Setup
-![name](https://github.com/pangz-lab/verus_box-release/blob/feature/help-page/help_assets/setup_monitoring.gif){width=320px}
+![name](https://github.com/pangz-lab/verus_box-release/blob/feature/help-page/help_assets/img/setup_monitoring.gif){width=320px}
 ## Set up VerusMiner
 
 ## Other References
