@@ -10,6 +10,22 @@
 [![name](https://www.gstatic.com/android/market_images/web/play_prism_hlock_2x.png)](https://play.google.com/store/apps/details?id=com.pangzlab.verus_box&hl=en_US&gl=US)
 
 ## Release Notes
+### v1.0.1
+#### 2022/09/24
+- ✔️ Some minor UI improvements
+- ✔️ Added a monitoring server and a device manager in one for FREE
+ - The pain of managing multiple devices is now gone
+ - Miners can now be monitored all at once at the comfort of your seat.
+ - The device states can be monitored without any effort 
+   - connection states
+   - temperature
+   - charging status
+   - acceptance rate
+   - mining hash and more 
+ - Provided a set of triggers that allows you to remotely
+   - turn off
+   - pause
+   - update mining setting
 ### v0.1.22
 #### 2022/04/19
 - ✔️ Integrated verus staking pool notification
