@@ -10,50 +10,157 @@
 - Monitoring works within your local network
 
 ### Requirements
-✔️ Download the following apps
+
+#### 📲 Download the following apps
 1. [VerusBox](https://play.google.com/store/apps/details?id=com.pangzlab.verus_box&gl=US)
 2. [VerusMiner](https://play.google.com/store/apps/details?id=com.pangzlab.verus_miner&gl=US)
 
-### 🥩Part 1 of 2
+### 🥓 Part 1 of 2
 1. Install `VerusBox`
 2. Open VerusBox then go to `Tools` > `Monitoring`
 3. Go to setting ⚙️ and setup the `IP ADDRESS` and `PORT` then save
     - make sure you are connected to your Wifi.
     - the IP address should be the same as the IP address of your device connected to the network
-    - it is recommended to set the IP address as a static IP to avoid changing all the settings when your local network changes
+    - it is recommended to set the IP address as a static IP to avoid changing all client settings when your local network changes (see [Qs](#faqs))
 4. If everything is setup correctly, no error message should appear
-5. An error will appear if `IP address you set and your device's IP is different`.
+5. An error will appear if the `IP address you set and your device's IP is different`.
     - check your connection setting and get the current IP and use it
-    - PORT number can be anything. You can leave it as it is
-6. From the `Monitoring` main screen at the bottom, you'll find the slider. `Slide it to start the server`.
-7. Leave it open and wait for the incoming connections
+    - `PORT` number can be anything. You can leave it as it is
+6. From the `Monitoring` main screen, find the slider. `Slide it to start the server`.
+7. Leave it open to wait for any incoming connections
 
 
-### 🧀Part 2 of 2
+### 🧀 Part 2 of 2
 1. Install `VerusMiner`
 2. Open VerusMiner and go to `More` > `Monitoring` then add by clicking `+` (plus sign) at the bottom
 3. Add a setting by using the `IP ADDRESS` and `PORT` number you set from the `VerusBox`
     - the IP ADDRESS and PORT number should be the same as the one you used in VerusBox
     - save it or check the connection by pressing the `CHECK CONNECTION` button.
     - a popup message should appear with a success message when the connection is established
-4. Go to `More` > `Setting` > `Mining` and then add a setting by clicking `+` (plus sign) at the bottom
-    - This assumes you already know how to setup a miner but if you're not yet familiar, you can check the links below
+4. Go to `More` > `Setting` > `Mining` and then add a setting by clicking `+` (plus sign) floating action button
+    - This assumes you already know how to setup a miner but if you're not yet familiar, you can check the [links below](#other-references)
 5. From the bottom part, you'll see the `MONITORING` switch, enable it
 6. Choose the `MONITORING SERVER` you just created from the `dropdown listbox`.
     - the IP ADDRESS and PORT number should appear correctly and then save
 7. From the main screen, go to `Mining` then click `START` to run the miner.
     - the mining status will now be sent to the VerusBox's monitoring server
-8. You can now start monitoring your app remotely
+8. You can now start monitoring your app remotely. Enjoy!
 
 
 ### Sample Setup
 <img src="https://github.com/pangz-lab/verus_box-release/blob/master/help_assets/img/setup_monitoring.gif" alt="Monitoring Server Sample" height="850" width="400"/>
 
 
+## Questions
+#faqs
+### ⛏ MINING
+<details>
+<summary>❔ Why does the miner connection indicator showing it's disconnected but in the monitoring it's still active?</summary>
+<p>
+
+#### 💬 Answer
+```
+Sometimes when the miner got disconnected from the network, it usually fails to send the appropriate closing message to the server. As a result, the connection is left open leaving the monitoring server thinks that the client is still active refelecting it in the connection indicator.
+```
+</p>
+</details>
+
+<details>
+<summary>❔ How long does it takes for the client to connect to the monitoring server when it got disconnected?</summary>
+<p>
+
+#### 💬 Answer
+```
+The main priority of the miner is always the mining. Connection to the monitoring server comes next. When a miner got disconnected, the mining operation would still continue to run. The only time it will care about reconnecting is when the mining status data is collected and ready for publishing. Reconnecting the the server might or might not succeed during the reconnection period but it will retry on the next window time.
+
+So to answer you question, there is no specific timing but the miner will reconnect given the right conditions.
+```
+</p>
+</details>
+
+
+<details>
+<summary>❔ Why is it when I trigger the "Pause Mining" action for some period, some miners did not reconnect instantly?</summary>
+<p>
+
+#### 💬 Answer
+```
+It's due to the device's battery and power optimization setting. Sometimes the countdown timer in the mining device would not work due to this thus failing to restart the miners on time. Try to test it and adjust the settings as necessary.
+
+It's recommended to setup you device with setting optimized for mining. This means removing unncessary apps and services to concentrate all the resources for mining operations only.
+```
+</p>
+</details>
+
+### 📺 MONITORING
+
+<details>
+<summary>❔ What are conditions to consider the client as idle</summary>
+<p>
+
+#### 💬 Answer
+```
+It's only when the monitoring service detected the client failing to send mining status data for more than 3 minutes.
+```
+</p>
+</details>
+
+<details>
+<summary>❔ Can I turn ON and OFF the monitoring server anytime?</summary>
+<p>
+
+#### 💬 Answer
+```
+YES. The monitoring server is designed to be used this way.
+```
+</p>
+</details>
+
+
+<details>
+<summary>❔ Can I still run the monitoring even if the IP ADDRESS I use is not a static IP?</summary>
+<p>
+
+#### 💬 Answer
+```
+Yes you can but it's recommended to use a static IP ADDRESS. When connected to your network(Wifi), the default IP setting is dynamic. This means,
+you can get a new IP ADDRESS different from the one your device used to have at any moment without you knowing it.
+
+For whatever reasons you don't want to set your IP ADDRESS as static, you'll need to update all the client's(VerusMiner) settings to use the new IP ADDRESS you got. That's tedious and beats the purposes of automation.
+
+This setup may vary for each phone brands and models but this will give you an idea how to achieve it.
+https://support.honeywellaidc.com/s/article/Android-How-to-set-up-a-static-IP-address
+```
+</p>
+</details>
+
+<details>
+<summary>❔ Why can't I see the device in the device selection list?</summary>
+<p>
+
+#### 💬 Answer
+```
+Only active devices are visible from the selection.
+
+If for some reasons the available device becomes idle or inactive while in the middle of performing an operation(update setting, pause mining etc.,), it will still proceed but will likely fail.
+```
+</p>
+</details>
+
+<details>
+<summary>❔ Can I run mulitple monitoring operations one after another without waiting for the previous operations to complete?</summary>
+<p>
+
+#### 💬 Answer
+```
+Yes you can. However, keep in mind that each client is designed to receive and execute a single command at a time. Running multiple operations in a single client without considering the ongoing operation is allowed but is very likely to fail as it will not be handled anymore by the receiving clients.
+```
+</p>
+</details>
+
+
 ## Other References
+#other-references
 1. [VerusBox Mining](https://youtu.be/7M8Bwz52d7A)
 2. [VerusBox Setup](https://youtu.be/Uq97hCHUYwA)
 3. [Mining Pool Server](https://youtu.be/CF5O-revXIE)
-
-## FAQs
-🚧
