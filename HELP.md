@@ -21,7 +21,7 @@
 3. Go to setting ⚙️ and setup the `IP ADDRESS` and `PORT` then save
     - make sure you are connected to your Wifi.
     - the IP address should be the same as the IP address of your device connected to the network
-    - it is recommended to set the IP address as a static IP to avoid changing all client settings when your local network changes (see [Qs](#faqs))
+    - it is recommended to set the IP address as a static IP to avoid changing all client settings when your local network changes (see [Qs](#questions))
 4. If everything is setup correctly, no error message should appear
 5. An error will appear if the `IP address you set and your device's IP is different`.
     - check your connection setting and get the current IP and use it
@@ -160,7 +160,6 @@ Yes you can. However, keep in mind that each client is designed to receive and e
 
 
 ## Other References
-#other-references
 1. [VerusBox Mining](https://youtu.be/7M8Bwz52d7A)
 2. [VerusBox Setup](https://youtu.be/Uq97hCHUYwA)
 3. [Mining Pool Server](https://youtu.be/CF5O-revXIE)
