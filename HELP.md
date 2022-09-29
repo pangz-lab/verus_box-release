@@ -6,7 +6,7 @@
 - Each app should be installed in a separate devices to work
 - VerusMiner is more stable and optimized than the VerusBox's mining version
 - Monitoring is designed to work in a check-it-when-you-need-it basis so it doesn't have to be up all the time
-- You may use a dedicated phone or table but it's not required
+- You may use a dedicated phone or tablet but it's not required
 - Monitoring works within your local network
 
 ### Requirements
