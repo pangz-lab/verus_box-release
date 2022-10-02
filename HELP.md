@@ -15,7 +15,7 @@
 1. [VerusBox](https://play.google.com/store/apps/details?id=com.pangzlab.verus_box&gl=US)
 2. [VerusMiner](https://play.google.com/store/apps/details?id=com.pangzlab.verus_miner&gl=US)
 
-### 🥓 Part 1 of 2
+### 🥓 Part 1 of 2 [VerusBox Installation]
 1. Install `VerusBox`
 2. Open VerusBox then go to `Tools` > `Monitoring`
 3. Go to setting ⚙️ and setup the `IP ADDRESS` and `PORT` then save
@@ -30,7 +30,7 @@
 7. Leave it open to wait for any incoming connections
 
 
-### 🧀 Part 2 of 2
+### 🧀 Part 2 of 2 [VerusMiner Installation]
 1. Install `VerusMiner`
 2. Open VerusMiner and go to `More` > `Monitoring` then add by clicking `+` (plus sign) at the bottom
 3. Add a setting by using the `IP ADDRESS` and `PORT` number you set from the `VerusBox`
@@ -48,11 +48,43 @@
 
 
 ### Sample Setup
-<img src="https://github.com/pangz-lab/verus_box-release/blob/master/help_assets/img/setup_monitoring.gif" alt="Monitoring Server Sample" height="850" width="400"/>
+<img src="https://github.com/pangz-lab/verus_box-release/blob/master/help_assets/img/setup_monitoring.gif" alt="Monitoring Server Sample" height="800" width="400"/>
 
+## Setup VerusMiner to start minig on boot
+### Requirements
+#### 📲 Download the following
+1. [Macrodroid App](https://play.google.com/store/search?q=macrodroid&c=apps&gl=US)
+2. [Macrodroid Script](https://github.com/pangz-lab/verus_box-release/blob/master/help_assets/macrodroid/verusminer_start_on_boot.v2.mdr)
+
+### 📝Note
+- If you have an existing `Macrodroid` setup, please backup your scripts
+- The script requires 2 mobile setting to work properly
+- Some device setting might have a different setting name as described here but you should find an equivalent one based on your brand and model
+
+### 🥓 Part 1 of 2 [Device Setting Update]
+1. Hide the device's `bottom navigation bar`. Checkout the following links to get the idea how to setup per device
+ - [Samsung One UI](https://www.guidingtech.com/hide-navigation-bar-samsung-one-ui/)
+ - [Huawei](https://www.quora.com/How-do-I-hide-the-Navigation-Bar-on-the-Huawei-P30-Pro)
+ - [Oppo](https://www.techbone.net/oppo/user-manual/disable-navigation-bar-in-apps)
+ - [Different device](https://deletingsolutions.com/how-to-hide-navigation-bar-android-pie/)
+2. Disable the `lock screen`. Your goal here is to remove the lock screen so that when you `turn on` your screen(pressing the power button), you should see the Home screen right away.
+ - [Different device](https://www.asurion.com/connect/tech-tips/how-to-set-up-change-remove-screen-lock-android/#:~:text=How%20to%20remove%20Screen%20Lock,screen%20code%20%3E%20None%20%3E%20Delete.)
+
+### 🧀 Part 2 of 2 [Macrodroid installation]
+1. Install `Macrodroid`
+2. Open `Macrodroid` and go to `Home` > `Export/Import` > `Import`
+ - Note that this import will overwrite all the existing scripts you have so make sure to back it all up to save your existing work.
+3. Go to the path where you downloaded the `Macrodroid Script` and then select.
+4. A couple of prompts will appear requesting for permissions. Just enable it then continue.(most important part)
+5. Go to `Macros`. From there you should see the `Restart Miner on Boot` item
+6. Restart your phone to test if it works.
+ - During restart, there is a bit of a delay but once the macrodroid icon is active, the script should run within 20 seconds as expected
+7. Should you encounter any problem, drop a message in the discord group.
+
+### Sample Script Setup
+<img src="https://github.com/pangz-lab/verus_box-release/blob/master/help_assets/macrodroid/script_setup.gif" alt="Macrodroid Script Setup" height="800" width="400"/>
 
 ## Questions
-#faqs
 ### ⛏ MINING
 <details>
 <summary>❔ Why does the miner connection indicator showing it's disconnected but in the monitoring it's still active?</summary>
