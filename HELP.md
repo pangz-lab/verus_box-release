@@ -50,7 +50,7 @@
 ### Sample Setup
 <img src="https://github.com/pangz-lab/verus_box-release/blob/master/help_assets/img/setup_monitoring.gif" alt="Monitoring Server Sample" height="800" width="400"/>
 
-## Setup VerusMiner to start minig on boot
+## Setup VerusMiner to start mining on boot
 ### 📝Note
 - If you have an existing `Macrodroid` setup, please backup your scripts
 - The script requires 2 mobile setting to work properly
