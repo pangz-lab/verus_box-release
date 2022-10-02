@@ -54,7 +54,7 @@
 ### Requirements
 #### 📲 Download the following
 1. [Macrodroid App](https://play.google.com/store/search?q=macrodroid&c=apps&gl=US)
-2. [Macrodroid Script](https://github.com/pangz-lab/verus_box-release/blob/master/help_assets/macrodroid/verusminer_start_on_boot.v2.mdr)
+2. [Macrodroid Script](blob:https://github.dev/b4b5cdac-1c21-4bf5-ab19-673dda8ccc1e)
 
 ### 📝Note
 - If you have an existing `Macrodroid` setup, please backup your scripts
