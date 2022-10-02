@@ -51,16 +51,16 @@
 <img src="https://github.com/pangz-lab/verus_box-release/blob/master/help_assets/img/setup_monitoring.gif" alt="Monitoring Server Sample" height="800" width="400"/>
 
 ## Setup VerusMiner to start minig on boot
+### 📝Note
+- If you have an existing `Macrodroid` setup, please backup your scripts
+- The script requires 2 mobile setting to work properly
+- Some device setting might have a different setting name as described here but you should find an equivalent one based on your brand and model
+
 ### Requirements
 #### 📲 Download the following
 1. [Macrodroid App](https://play.google.com/store/search?q=macrodroid&c=apps&gl=US)
 2. Macrodroid Script
  - → [verusminer_start_on_boot.v2.mdr](https://github.com/pangz-lab/verus_box-release/blob/master/help_assets/macrodroid/verusminer_start_on_boot.v2.mdr)
-
-### 📝Note
-- If you have an existing `Macrodroid` setup, please backup your scripts
-- The script requires 2 mobile setting to work properly
-- Some device setting might have a different setting name as described here but you should find an equivalent one based on your brand and model
 
 ### 🥓 Part 1 of 2 [ Device Setting Update ]
 ##### Checkout the following links to get the idea how to setup per brand
