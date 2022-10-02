@@ -15,7 +15,7 @@
 1. [VerusBox](https://play.google.com/store/apps/details?id=com.pangzlab.verus_box&gl=US)
 2. [VerusMiner](https://play.google.com/store/apps/details?id=com.pangzlab.verus_miner&gl=US)
 
-### 🥓 Part 1 of 2 [VerusBox Installation]
+### 🥓 Part 1 of 2 [ VerusBox Installation ]
 1. Install `VerusBox`
 2. Open VerusBox then go to `Tools` > `Monitoring`
 3. Go to setting ⚙️ and setup the `IP ADDRESS` and `PORT` then save
@@ -30,7 +30,7 @@
 7. Leave it open to wait for any incoming connections
 
 
-### 🧀 Part 2 of 2 [VerusMiner Installation]
+### 🧀 Part 2 of 2 [ VerusMiner Installation ]
 1. Install `VerusMiner`
 2. Open VerusMiner and go to `More` > `Monitoring` then add by clicking `+` (plus sign) at the bottom
 3. Add a setting by using the `IP ADDRESS` and `PORT` number you set from the `VerusBox`
@@ -61,16 +61,17 @@
 - The script requires 2 mobile setting to work properly
 - Some device setting might have a different setting name as described here but you should find an equivalent one based on your brand and model
 
-### 🥓 Part 1 of 2 [Device Setting Update]
-1. Hide the device's `bottom navigation bar`. Checkout the following links to get the idea how to setup per device
+### 🥓 Part 1 of 2 [ Device Setting Update ]
+##### Checkout the following links to get the idea how to setup per brand
+1. Hide the device's `bottom navigation bar`.
  - [Samsung One UI](https://www.guidingtech.com/hide-navigation-bar-samsung-one-ui/)
  - [Huawei](https://www.quora.com/How-do-I-hide-the-Navigation-Bar-on-the-Huawei-P30-Pro)
  - [Oppo](https://www.techbone.net/oppo/user-manual/disable-navigation-bar-in-apps)
- - [Different device](https://deletingsolutions.com/how-to-hide-navigation-bar-android-pie/)
+ - [Mixed Brands](https://deletingsolutions.com/how-to-hide-navigation-bar-android-pie/)
 2. Disable the `lock screen`. Your goal here is to remove the lock screen so that when you `turn on` your screen(pressing the power button), you should see the Home screen right away.
- - [Different device](https://www.asurion.com/connect/tech-tips/how-to-set-up-change-remove-screen-lock-android/#:~:text=How%20to%20remove%20Screen%20Lock,screen%20code%20%3E%20None%20%3E%20Delete.)
+ - [Mixed Brands](https://www.asurion.com/connect/tech-tips/how-to-set-up-change-remove-screen-lock-android/#:~:text=How%20to%20remove%20Screen%20Lock,screen%20code%20%3E%20None%20%3E%20Delete.)
 
-### 🧀 Part 2 of 2 [Macrodroid installation]
+### 🧀 Part 2 of 2 [ Macrodroid Installation ]
 1. Install `Macrodroid`
 2. Open `Macrodroid` and go to `Home` > `Export/Import` > `Import`
  - Note that this import will overwrite all the existing scripts you have so make sure to back it all up to save your existing work.
