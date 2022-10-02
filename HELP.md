@@ -59,8 +59,7 @@
 ### Requirements
 #### 📲 Download the following
 1. [Macrodroid App](https://play.google.com/store/search?q=macrodroid&c=apps&gl=US)
-2. Macrodroid Script
- - → [verusminer_start_on_boot.v2.mdr](https://github.com/pangz-lab/verus_box-release/blob/master/help_assets/macrodroid/verusminer_start_on_boot.v2.mdr)
+2. Macrodroid Script → [verusminer_start_on_boot.v2.mdr](https://drive.google.com/file/d/1KpvYCo547cdNrEPYlD9fJAnmwKeYpetV/view?usp=drivesdk)
 
 ### 🥓 Part 1 of 2 [ Device Setting Update ]
 ##### Checkout the following links to get the idea how to setup per brand
