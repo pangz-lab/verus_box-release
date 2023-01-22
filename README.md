@@ -10,6 +10,12 @@
 [![name](https://www.gstatic.com/android/market_images/web/play_prism_hlock_2x.png)](https://play.google.com/store/apps/details?id=com.pangzlab.verus_box&hl=en_US&gl=US)
 
 ## Release Notes
+
+### v1.2.0
+#### 2023/01/21
+- ✔️ Improved monitoring status 
+- ✔️ Added VerusMiner banner
+
 ### v1.0.1
 #### 2022/09/24
 - ✔️ Some minor UI improvements
