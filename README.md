@@ -14,16 +14,16 @@
 ### v3.1.0
 #### 2023/06/05
 - ✔️ Upgraded the Verus coin miner
- - now supports the latest features of Verus - PBaaS and merge mining
+	- now supports the latest features of Verus - PBaaS and merge mining
 - ✔️ Improved mining performance
 - ✔️ Mining view improvements
 - ✔️ Added wallet balance view
 - ✔️ Added new mining pools
 - ✔️ Secured monitoring connection - now using TLS/SSL certificates
 - ✔️ Monitoring server re-connection improvements
- - improved status send timing(requires VerusMiner v3.1.0)
+	- improved status send timing(requires VerusMiner v3.1.0)
 - ✔️ Bug fixes
- - fixed start monitoring bug during initial IP address setting for monitoring server
+	- fixed start monitoring bug during initial IP address setting for monitoring server
 
 ### v1.2.0
 #### 2023/01/21
