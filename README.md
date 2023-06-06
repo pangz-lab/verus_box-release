@@ -11,6 +11,12 @@
 
 ## Release Notes
 
+### v3.2.0
+#### 2023/06/07
+- ✔️ Mining improvements
+	- enabled extra-nonce(xnsub) by default
+	- better mining support for nicehash pool
+    
 ### v3.1.0
 #### 2023/06/05
 - ✔️ Upgraded the Verus coin miner
