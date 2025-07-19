@@ -10,6 +10,12 @@
 [![name](https://www.gstatic.com/android/market_images/web/play_prism_hlock_2x.png)](https://play.google.com/store/apps/details?id=com.pangzlab.verus_box&hl=en_US&gl=US)
 
 ## Release Notes
+### v5.0.0
+#### 2025/07/20
+- ✔️ Fixed the local monitoring server
+- ✔️ Fixed themes and styling for light mode and dark mode
+- ✔️ Improved dialog and other broken UI components
+
 ### v4.0.1
 #### 2024/03/25
 - ✔️ Updated miner version verify selection list
